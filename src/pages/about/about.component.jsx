@@ -27,8 +27,8 @@ const About = () => {
                         <Row className="my-details p-2 align-items-start rounded">
                             Myself <strong>&nbsp; D. Lohith Bhargav</strong> 
                             <br />Currently pursuing Btech 4th year CSE at KLEF Deemed to be University.
-                            <br />I am currently assisting students in RPA as Student Peer Mentor.
-                            <br />Trained two batches in solving the assignments of RPA with video content creation and presentation.
+                            <br />RPA Developer in University and Student Peer Mentor for RPA.
+                            <br />Trained & Assisted two batches in solving assignments by providing video content creation and presentation.
                             <br />Developed bots for solving complex tasks to University.
                             <br />I am currently certified at Automation Anywhere Certified Essentials, Automation Anywhere Certified Advanced, ServiceNow Certified System Administrator, UiPath RPA Developer Advanced, Oracle Autonomous Database Cloud 2019 Certified Specialist and Java Enterprise Certification Course.
                             <br />My Strengths are Hardworking, Goal Oriented, Flexibility, Leadership.

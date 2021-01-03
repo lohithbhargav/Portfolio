@@ -8,15 +8,24 @@ import { Parallax } from "react-parallax";
 import Container from 'react-bootstrap/Container';
 import Experience from './pages/experience/experience.component'
 import Slide from 'react-reveal/Slide';
+
+import Particles from "react-particles-js";
+import { particlesOptions } from "./themes/particlesOptions";
 // components
 import Skills from './pages/skills/skills.component'
+import ProjectsTimeline from './pages/projects-timeline/projects-timeline.component';
+import Contact from './pages/contact-form/contact-form.component';
+
+import FooterPanel from "./components/footer/footer.component";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative"}}>
       <MyNavbar />
+      
         <MyCarousal />
         <TitleMessage />
+        <Particles className="particles particles-box" params={particlesOptions} />
         {/* about me section */}
         <div>
           <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/background/background.webp")} bgImageAlt="" strength={-200} >
@@ -42,12 +51,45 @@ const App = () => {
         {/* Experience */}
         <div>
           <Container className="container-box rounded">
-            <Slide bottom duration={500}>
+            <Fade duration={500}>
               <hr /> 
               <Experience />
+            </Fade>
+          </Container>
+        </div>
+
+        {/* Project */}
+        <div>
+          <Container className="container-box rounded">
+            <Slide bottom duration={500}>
+              <hr /> 
+              <ProjectsTimeline />
             </Slide>
           </Container>
         </div>
+
+        {/* Contact */}
+        <div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <hr /> 
+              <Contact />
+            </Fade>
+          </Container>
+        </div>
+
+        {/* Contact */}
+        {/*<div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <hr /> 
+              <FooterPanel />
+            </Fade>
+          </Container>
+        </div>*/}
+
+      <hr />
+      <FooterPanel />
 
     </div>);
 };
