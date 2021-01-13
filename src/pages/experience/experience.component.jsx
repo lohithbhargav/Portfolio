@@ -27,19 +27,18 @@ const Experience = () => {
                     <br />
                     <strong>Tools:</strong> Automation Anywhere Enterprise & Cloud(Community eariler) Edition
                     <br />
-                    <strong>Duration:</strong> May 2020 - Present
+                    <strong>Duration:</strong> Apr 2020 - Present
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
-                      </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
-                      </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+                      <li><strong>Developed </strong> Bots for solving tasks of high volume pertains to University.</li>
+                      <li><strong>Designed &amp; Developed </strong> Bots for <strong>Projects &amp; Tasks:</strong> </li>
+                        <i>&nbsp;&nbsp;:&gt; Complete Automation of Exam Section</i><br />
+                        <i>&nbsp;&nbsp;:&gt; Automation of Student Registration into Microsoft Teams</i><br />
+                        <i>&nbsp;&nbsp;:&gt; Bot Generated Stock Details</i><br />
+                        <i>&nbsp;&nbsp;:&gt; Conversion of Excel Question Banks into XML files</i><br />
+                        <i>&nbsp;&nbsp;:&gt; Generation of CSV files from a Excel</i><br />
+                        <i>&nbsp;&nbsp;:&gt; Filtering of Individual Course Students to Excel from Huge Students List</i>
                     </ul>
                   </Card.Text>
                 </div>
@@ -71,14 +70,12 @@ const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      <li><strong>POC &amp; Assisted </strong>	Students in different ways of solving Practical Labs.</li>
+                      <li><strong>Trained</strong> Two batch in Solving the Assignments of RPA Training.
                       </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
+                      <li><strong>Creating &amp; Presentation </strong> Video Content at Training &amp; Sessions at RPA Club as Technical Lead. 
                       </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
+                      <li><strong>Link</strong> for <a href="https://shorturl.at/opY12">Video Contents</a> at Training &amp; Presentation.</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
                   </Card.Text>

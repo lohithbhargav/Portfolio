@@ -5,29 +5,31 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 //Project Logo
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+
 
 // skills
-import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
+
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
+import L_REACT from "../../assets/img/skills/react.svg";
+import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import L_GIT from "../../assets/img/skills/git-icon.svg";
+import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_JAVA from "../../assets/img/skills/java.svg";
+import L_C from "../../assets/img/skills/c.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
+import L_HIBERNATE from "../../assets/img/skills/hibernate.svg";
+import L_SPRING from "../../assets/img/skills/springio.svg";
+import L_AUTOMATION from "../../assets/img/skills/automation.svg";
+import L_UIPATH from "../../assets/img/skills/uipath.svg";
+import L_JSP from "../../assets/img/skills/jsp.svg";
+import L_SERVLET from "../../assets/img/skills/servlet.svg";
+import L_ORACLE from "../../assets/img/skills/oracle.svg";
+
 
 import "./projects-timeline.style.css";
 
@@ -43,7 +45,6 @@ const ProjectsTimeline = () => {
             date="01/10/2020"
             className="text-center"
             text="React ToDo App"
-            src={L_ReactToDoList}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -96,7 +97,7 @@ const ProjectsTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
+                                src={L_HTML5}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
@@ -107,7 +108,7 @@ const ProjectsTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
+                                src={L_HTML5}
                                 alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
@@ -145,14 +146,11 @@ const ProjectsTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
+          {/* Project: Automation of Student Registration into Microsoft Teams using RPA */}
+          <ImageEvent
+            date="19/12/2020"
             className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
-          >
+            text="Student Registration into Microsoft Teams using RPA">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -164,17 +162,16 @@ const ProjectsTimeline = () => {
                     >
                       PROJECT DETAILS
                     </Accordion.Toggle>
-
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> Developed bots to create private channels in Teams to add members into each of the channel.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
+                          <li>It's a 3 step Process</li>
+                          <li>1. Adding all Owners &amp; Members into Teams</li>
+                          <li>2. Creation of Individual Priavte Channels</li>
+                          <li>3. Adding Owners &amp; Members to corresponding Channels</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -182,56 +179,12 @@ const ProjectsTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={L_AUTOMATION}
+                                alt="Automation Anywhere"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
+                              Automation Anywhere
                             </span>
                           </li>
                         </ul>
@@ -242,12 +195,6 @@ const ProjectsTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
                   href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
                   target="_blank"
                 >
@@ -256,8 +203,7 @@ const ProjectsTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-
-
+          
         </Events>
         </Timeline>
         </div>

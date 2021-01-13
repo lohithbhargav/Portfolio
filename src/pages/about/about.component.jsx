@@ -14,7 +14,6 @@ const About = () => {
             <div className="about">
             <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
             <Container >
-              {/*  <Image src={ Bg } thumbnail /> */}
                 <Row className="pt-3 pb-5 align-items-center">
                     {/* Profile Pic */}
                     <Col xs={12} md={6}>
@@ -25,22 +24,27 @@ const About = () => {
                     {/* About me description */}
                     <Col xs={12} md={6}>
                         <Row className="my-details p-2 align-items-start rounded">
-                            Myself <strong>&nbsp; D. Lohith Bhargav</strong> 
-                            <br />Currently pursuing Btech 4th year CSE at KLEF Deemed to be University.
-                            <br />RPA Developer in University and Student Peer Mentor for RPA.
-                            <br />Trained & Assisted two batches in solving assignments by providing video content creation and presentation.
-                            <br />Developed bots for solving complex tasks to University.
-                            <br />I am currently certified at Automation Anywhere Certified Essentials, Automation Anywhere Certified Advanced, ServiceNow Certified System Administrator, UiPath RPA Developer Advanced, Oracle Autonomous Database Cloud 2019 Certified Specialist and Java Enterprise Certification Course.
-                            <br />My Strengths are Hardworking, Goal Oriented, Flexibility, Leadership.
-                            <br />My Hobbies are Youtuber, Video Editing, Playing AAA Pc Games. 
+                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><li>A Techie born and brought up in India.</li>
+                          <li> I am RPA Developer &amp; Student Peer Mentor at University</li>
+                          <li>Currently pursuing B-tech 4th year CSE at KLEF Deemed to be University.</li>
+                          <div><strong><br />Global Certifications :</strong>
                             <br />
-                            { /* button */}
-                            <Col className="d-flex justify-content-center flex-wrap">
-                             <div>
-                                 <a href="#contact" >
+                            <i>&nbsp;&nbsp;Automation Anywhere Certified Essentials</i><br />
+                            <i>&nbsp;&nbsp;Automation Anywhere Certified Advanced</i><br />
+                            <i>&nbsp;&nbsp;ServiceNow Certified System Administrator</i><br />
+                            <i>&nbsp;&nbsp;UiPath RPA Developer Advanced</i>
+                          </div>
+                          <div>
+                          <strong><br />Strengths:<br /></strong>Hardworking, Goal Oriented, Flexibility, Leadership.
+                          <strong><br />Hobbies:<br /></strong> Youtuber, Photography, Video Editing, Playing AAA Pc Games. 
+                          </div>
+                          { /* button */}
+                          <Col className="d-flex justify-content-center flex-wrap">
+                          <div>
+                              <a href="#contact" >
                                  <Button className="m-2" variant="outline-primary">Let's Talk</Button>
-                                 </a>
-                             </div>
+                              </a>
+                            </div>
                     <div>
                     <a href="https://drive.google.com/file/d/1PQUijN8cceWl-sbk9C-_my3J0jqQOh9D/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
@@ -67,9 +71,8 @@ const About = () => {
               </Col>
               </Row>
             </Container>
-            
          </div>
-        </div>
+      </div>
     );
 };
 
