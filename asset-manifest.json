@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.64f517fd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.3f60620f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.3f60620f.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.cdf0995b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cdf0995b.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
-    "static/js/2.10e9870b.chunk.js": "/Portfolio/static/js/2.10e9870b.chunk.js",
-    "static/js/2.10e9870b.chunk.js.map": "/Portfolio/static/js/2.10e9870b.chunk.js.map",
+    "static/js/2.49a84466.chunk.js": "/Portfolio/static/js/2.49a84466.chunk.js",
+    "static/js/2.49a84466.chunk.js.map": "/Portfolio/static/js/2.49a84466.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.64f517fd.chunk.css.map": "/Portfolio/static/css/main.64f517fd.chunk.css.map",
-    "static/js/2.10e9870b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.10e9870b.chunk.js.LICENSE.txt",
+    "static/js/2.49a84466.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.49a84466.chunk.js.LICENSE.txt",
     "static/media/automation.6d050f7f.svg": "/Portfolio/static/media/automation.6d050f7f.svg",
     "static/media/background.webp": "/Portfolio/static/media/background.48c0b661.webp",
     "static/media/bootstrap-4.997c463d.svg": "/Portfolio/static/media/bootstrap-4.997c463d.svg",
@@ -29,6 +29,7 @@
     "static/media/python.e6d7dc73.svg": "/Portfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/Portfolio/static/media/react-bootstrap.534ba574.svg",
     "static/media/react.add74742.svg": "/Portfolio/static/media/react.add74742.svg",
+    "static/media/rstudio.ece2781e.svg": "/Portfolio/static/media/rstudio.ece2781e.svg",
     "static/media/servlet.3c5854fc.svg": "/Portfolio/static/media/servlet.3c5854fc.svg",
     "static/media/slide1.14619b04.webp": "/Portfolio/static/media/slide1.14619b04.webp",
     "static/media/slide2.d58e7971.webp": "/Portfolio/static/media/slide2.d58e7971.webp",
@@ -38,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.896df889.js",
-    "static/js/2.10e9870b.chunk.js",
+    "static/js/2.49a84466.chunk.js",
     "static/css/main.64f517fd.chunk.css",
-    "static/js/main.3f60620f.chunk.js"
+    "static/js/main.cdf0995b.chunk.js"
   ]
 }
