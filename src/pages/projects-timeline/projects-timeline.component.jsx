@@ -40,6 +40,131 @@ const ProjectsTimeline = () => {
         <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
         <Timeline>
         <Events>
+
+          {/* Project: My PortFolio */}
+          <ImageEvent
+            date="11/2020 - 01/2021"
+            className="text-center"
+            text="My PortFolio">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> My Portfolio with basic Info for more information navigate to CV from Portfolio.
+                        
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_BOOTSTRAP}
+                                alt="React BootStrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React BootStrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Css3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="Html5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML 5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="Java Script"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Java Script
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="GIT"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GIT
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB_PAGES}
+                                alt="Github Pages"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Github Pages
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div> 
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/lohithbhargav/Portfolio"
+                  target="_blank"
+                >
+                  SOUCRE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://lohithbhargav.github.io/Portfolio/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
           {/* Project: Automation of Student Registration into Microsoft Teams using RPA */}
           <ImageEvent
             date="12/2020 - 01/2021"
