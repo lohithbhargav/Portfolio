@@ -29,7 +29,7 @@ import L_UIPATH from "../../assets/img/skills/uipath.svg";
 import L_JSP from "../../assets/img/skills/jsp.svg";
 import L_SERVLET from "../../assets/img/skills/servlet.svg";
 import L_ORACLE from "../../assets/img/skills/oracle.svg";
-
+import L_R from "../../assets/img/skills/rstudio.svg";
 
 import "./projects-timeline.style.css";
 
@@ -40,115 +40,6 @@ const ProjectsTimeline = () => {
         <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
         <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
-        <ImageEvent
-            date="01/10/2020"
-            className="text-center"
-            text="React ToDo App"
-            alt="React ToDo App"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-
-
           {/* Project: Automation of Student Registration into Microsoft Teams using RPA */}
           <ImageEvent
             date="12/2020 - 01/2021"
@@ -229,10 +120,9 @@ const ProjectsTimeline = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>It's a 3 step Process</li>
-                          <li>1. Adding all Owners &amp; Members into Teams</li>
-                          <li>2. Creation of Individual Priavte Channels</li>
-                          <li>3. Adding Owners &amp; Members to corresponding Channels</li>
+                          <li>We took 3 conditions to modeling the prediction like No Rain, Light Rain, Heavy Rain.</li>                     
+                          <li>Evalution and Analysis of DataSet for Data Visualization.</li>
+                          <li>Exploration of Mechanism.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -262,12 +152,12 @@ const ProjectsTimeline = () => {
                           <li>
                           <span className="p-2">
                               <Image
-                                src={L_GIT}
+                                src={L_R}
                                 alt="R & R Studio"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              R &amp; R Studio
+                              R Studio
                             </span>
                           </li>
                         </ul>
@@ -278,10 +168,10 @@ const ProjectsTimeline = () => {
               </div> 
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://youtube.com/playlist?list=PLh0t5-dffkJFF4SenAJ_K9elWOVOvzg4s"
+                  href="https://projects.kluniversity.in/170030320/majorproject"
                   target="_blank"
                 >
-                  WATCH VIDEO
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
@@ -510,7 +400,7 @@ const ProjectsTimeline = () => {
               </div> 
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://youtu.be/tfLvp8KxyCQ"
+                  href="https://github.com/lohithbhargav/Permission-Approval-System"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -568,7 +458,7 @@ const ProjectsTimeline = () => {
               </div> 
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://youtu.be/tfLvp8KxyCQ"
+                  href="https://github.com/lohithbhargav/School-Admissions-System-Using-Java"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -625,7 +515,7 @@ const ProjectsTimeline = () => {
               </div> 
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://youtu.be/tfLvp8KxyCQ"
+                  href="https://github.com/lohithbhargav/Looking-Up-Passwords"
                   target="_blank"
                 >
                   SOURCE CODE

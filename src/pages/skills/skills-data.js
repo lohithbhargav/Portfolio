@@ -17,6 +17,7 @@ import L_UIPATH from "../../assets/img/skills/uipath.svg";
 import L_JSP from "../../assets/img/skills/jsp.svg";
 import L_SERVLET from "../../assets/img/skills/servlet.svg";
 import L_ORACLE from "../../assets/img/skills/oracle.svg";
+import L_R from "../../assets/img/skills/rstudio.svg";
 
 export const skills ={
     frontend : [
