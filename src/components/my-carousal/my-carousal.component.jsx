@@ -14,7 +14,7 @@ const MyCarousal = () => {
             <img className="d-block w-100 custom-img" src={ Slide1 } alt="First slide" />
         </Carousel.Item>
         <Carousel.Item interval={500}>
-            <img className="d-block w-100 custom-img" src={ Slide2 } alt="Third slide" />
+            <img className="d-block w-100 custom-img" src={ Slide2 } alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
             <img className="d-block w-100 custom-img" src={ Slide3 } alt="Third slide" />

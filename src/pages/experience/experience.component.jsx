@@ -15,7 +15,7 @@ const Experience = () => {
                     <Tilt options={{ max: 25 }}>
                         <Card>
                         <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                        <Card.Img variant="top" className="img-resize" src={ bg } alt="Accenture logo" />
+                        <Card.Img variant="top" className="img-resize" src={ bg } alt="K L University" />
                         </Card.Header>
                         <Card.Body className="d-flex justify-content-center flex-column">
                         <div>
@@ -31,14 +31,14 @@ const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed </strong> Bots for solving tasks of high volume pertains to University.</li>
-                      <li><strong>Designed &amp; Developed </strong> Bots for <strong>Projects &amp; Tasks:</strong> </li>
-                        <i>&nbsp;&nbsp;:&gt; Complete Automation of Exam Section</i><br />
-                        <i>&nbsp;&nbsp;:&gt; Automation of Student Registration into Microsoft Teams</i><br />
-                        <i>&nbsp;&nbsp;:&gt; Bot Generated Stock Details</i><br />
-                        <i>&nbsp;&nbsp;:&gt; Conversion of Excel Question Banks into XML files</i><br />
-                        <i>&nbsp;&nbsp;:&gt; Generation of CSV files from a Excel</i><br />
-                        <i>&nbsp;&nbsp;:&gt; Filtering of Individual Course Students to Excel from Huge Students List</i>
+                      <ul><li><strong>Developed </strong> Bots for solving tasks of high volume pertains to University.</li></ul>
+                      <ul><li><strong>Designed &amp; Developed </strong> Bots for <strong>Projects &amp; Tasks:</strong> </li></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Complete Automation of Exam Section</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Automation of Student Registration into Microsoft Teams</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Bot Generated Stock Details</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Conversion of Excel Question Banks into XML files</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Generation of CSV files from a Excel</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Filtering of Individual Course Students to Excel from Huge Students List</i></ul>
                     </ul>
                   </Card.Text>
                 </div>
@@ -54,7 +54,7 @@ const Experience = () => {
                     <Tilt options={{ max: 25 }}>
                         <Card>
                         <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                        <Card.Img variant="top" className="img-resize" src={ bg } alt="Accenture logo" />
+                        <Card.Img variant="top" className="img-resize" src={ bg } alt="K L University" />
                         </Card.Header>
                         <Card.Body className="d-flex justify-content-center flex-column">
                         <div>

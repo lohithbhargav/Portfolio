@@ -151,12 +151,14 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://github.com/lohithbhargav/Portfolio"
                   target="_blank"
+                  rel="noopener"
                 >
                   SOUCRE CODE
                 </UrlButton>
                 <UrlButton
                   href="https://lohithbhargav.github.io/Portfolio/"
                   target="_blank"
+                  rel="noopener"
                 >
                   SEE LIVE
                 </UrlButton>
@@ -216,6 +218,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://youtube.com/playlist?list=PLh0t5-dffkJFF4SenAJ_K9elWOVOvzg4s"
                   target="_blank"
+                  rel="noopener"
                 >
                   WATCH VIDEO
                 </UrlButton>
@@ -295,6 +298,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://projects.kluniversity.in/170030320/majorproject"
                   target="_blank"
+                  rel="noopener"
                 >
                   SOURCE CODE
                 </UrlButton>
@@ -403,6 +407,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://youtu.be/tfLvp8KxyCQ"
                   target="_blank"
+                  rel="noopener"
                 >
                   WATCH VIDEO
                 </UrlButton>
@@ -527,6 +532,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://github.com/lohithbhargav/Permission-Approval-System"
                   target="_blank"
+                  rel="noopener"
                 >
                   SOURCE CODE
                 </UrlButton>
@@ -585,6 +591,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://github.com/lohithbhargav/School-Admissions-System-Using-Java"
                   target="_blank"
+                  rel="noopener"
                 >
                   SOURCE CODE
                 </UrlButton>
@@ -642,6 +649,7 @@ const ProjectsTimeline = () => {
                 <UrlButton
                   href="https://github.com/lohithbhargav/Looking-Up-Passwords"
                   target="_blank"
+                  rel="noopener"
                 >
                   SOURCE CODE
                 </UrlButton>

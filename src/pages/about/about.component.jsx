@@ -24,9 +24,9 @@ const About = () => {
                     {/* About me description */}
                     <Col xs={12} md={6}>
                         <Row className="my-details p-2 align-items-start rounded">
-                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><li>A Techie born and brought up in India.</li>
-                          <li> I am RPA Developer &amp; Student Peer Mentor at University</li>
-                          <li>Currently pursuing B-tech 4th year CSE at KLEF Deemed to be University.</li>
+                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><ul><li>A Techie born and brought up in India.</li></ul>
+                          <ul><li>I am RPA Developer &amp; Student Peer Mentor at University</li></ul>
+                          <ul><li>Currently pursuing B-tech 4th year CSE at KLEF Deemed to be University.</li></ul>
                           <div><strong><br />Global Certifications :</strong>
                             <br />
                             <i>&nbsp;&nbsp;Automation Anywhere Certified Essentials</i><br />
