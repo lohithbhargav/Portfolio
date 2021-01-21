@@ -21,7 +21,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="www.linkedin.com/in/dlohithbhargav" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/dlohithbhargav" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>

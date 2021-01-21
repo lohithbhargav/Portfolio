@@ -161,11 +161,11 @@ const ProjectsTimeline = () => {
           </ImageEvent>
 
 
-          {/* Project: Automation of Student Registration into Microsoft Teams using RPA */}
+          {/* Project: Automated Registration into Microsoft Teams using RPA */}
           <ImageEvent
             date="12/2020 - 01/2021"
             className="text-center"
-            text="Student Registration into Microsoft Teams using RPA">
+            text="Academic Registration into Microsoft Teams using RPA">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -301,11 +301,11 @@ const ProjectsTimeline = () => {
           </ImageEvent>
 
 
-          {/* Project: Complete Automated Exam Section Using RPA*/}
+          {/* Project: Automation of Online Exams Evaluation at Exam Section*/}
           <ImageEvent
             date="04/2020 - 06/2020"
             className="text-center"
-            text="Complete Automated Exam Section Using RPA">
+            text="Evaluation of Online Exams at Exam Section Using RPA">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>

@@ -31,7 +31,7 @@ const App = () => {
           <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/background/background.webp")} bgImageAlt="" strength={-200} >
           <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Fade duration={100}>
               <About />
             </Fade>
           </Container>
@@ -41,7 +41,7 @@ const App = () => {
         {/* skills */}
         <div>
           <Container className="container-box rounded">
-            <Slide bottom duration={500}>
+            <Slide bottom duration={100}>
             <hr /> 
             <Skills />
             </Slide>
@@ -51,7 +51,7 @@ const App = () => {
         {/* Experience */}
         <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Fade duration={100}>
               <hr /> 
               <Experience />
             </Fade>
@@ -61,7 +61,7 @@ const App = () => {
         {/* Project */}
         <div>
           <Container className="container-box rounded">
-            <Slide bottom duration={500}>
+            <Slide bottom duration={100}>
               <hr /> 
               <ProjectsTimeline />
             </Slide>
@@ -71,23 +71,12 @@ const App = () => {
         {/* Contact */}
         <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Fade duration={100}>
               <hr /> 
               <Contact />
             </Fade>
           </Container>
         </div>
-
-        {/* Contact */}
-        {/*<div>
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <hr /> 
-              <FooterPanel />
-            </Fade>
-          </Container>
-        </div>*/}
-
       <hr />
       <FooterPanel />
 

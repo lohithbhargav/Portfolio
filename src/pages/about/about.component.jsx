@@ -24,8 +24,8 @@ const About = () => {
                     {/* About me description */}
                     <Col xs={12} md={6}>
                         <Row className="my-details p-2 align-items-start rounded">
-                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><ul><li>A Techie born and brought up in India.</li></ul>
-                          <ul><li>I am RPA Developer &amp; Student Peer Mentor at University</li></ul>
+                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><ul><li> A Certified RPA Developer of Automation Anywhere &amp; UiPath.</li></ul>
+                          <ul><li>RPA Developer &amp; Student Peer Mentor at K L University.</li></ul>
                           <ul><li>Currently pursuing B-tech 4th year CSE at KLEF Deemed to be University.</li></ul>
                           <div><strong><br />Global Certifications :</strong>
                             <br />
@@ -41,8 +41,8 @@ const About = () => {
                           { /* button */}
                           <Col className="d-flex justify-content-center flex-wrap">
                           <div>
-                              <a href="#contact" >
-                                 <Button className="m-2" variant="outline-primary">Let's Talk</Button>
+                              <a href="https://shorturl.at/opY12" >
+                                 <Button className="m-2" variant="outline-primary">My RPA Works</Button>
                               </a>
                             </div>
                     <div>

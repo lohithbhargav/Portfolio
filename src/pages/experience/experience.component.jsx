@@ -33,8 +33,8 @@ const Experience = () => {
                     <ul className="text-left">
                       <ul><li><strong>Developed </strong> Bots for solving tasks of high volume pertains to University.</li></ul>
                       <ul><li><strong>Designed &amp; Developed </strong> Bots for <strong>Projects &amp; Tasks:</strong> </li></ul>
-                      <ul><i>&nbsp;&nbsp;:&gt; Complete Automation of Exam Section</i><br /></ul>
-                      <ul><i>&nbsp;&nbsp;:&gt; Automation of Student Registration into Microsoft Teams</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Automation of Online Exams Evaluation at Exam Section</i><br /></ul>
+                      <ul><i>&nbsp;&nbsp;:&gt; Automation of Academic Registration into Microsoft Teams</i><br /></ul>
                       <ul><i>&nbsp;&nbsp;:&gt; Bot Generated Stock Details</i><br /></ul>
                       <ul><i>&nbsp;&nbsp;:&gt; Conversion of Excel Question Banks into XML files</i><br /></ul>
                       <ul><i>&nbsp;&nbsp;:&gt; Generation of CSV files from a Excel</i><br /></ul>
