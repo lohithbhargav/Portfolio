@@ -24,6 +24,7 @@ import L_JSP from "../../assets/img/skills/jsp.svg";
 import L_SERVLET from "../../assets/img/skills/servlet.svg";
 import L_ORACLE from "../../assets/img/skills/oracle.svg";
 import L_R from "../../assets/img/skills/rstudio.svg";
+import L_UIPATH from "../../assets/img/skills/uipath.svg";
 
 import "./projects-timeline.style.css";
 
@@ -34,6 +35,69 @@ const ProjectsTimeline = () => {
         <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
         <Timeline>
         <Events>
+          {/* Project: My PortFolio */}
+          <ImageEvent
+            date="01/2021 - 04/2021"
+            className="text-center"
+            text="Chart Out & Analysis of Soft Automation">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> The Analysis of different types of Automation Available currently.
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_AUTOMATION}
+                                alt="Automation Anywhere"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Automation Anywhere
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_UIPATH}
+                                alt="UiPath"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              UIPATH
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div> 
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://projects.kluniversity.in/170030320/rpa-project"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  SOUCRE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
 
           {/* Project: My PortFolio */}
           <ImageEvent

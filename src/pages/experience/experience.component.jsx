@@ -5,11 +5,49 @@ import Container from "react-bootstrap/Container";
 import "./experience.style.css";
 import Card from "react-bootstrap/Card";
 import bg from "../../assets/img/experience/download.png";
+import lt from "../../assets/img/experience/ltts.jpg";
 
 const Experience = () => {
     return (
         <div id='experience'>
             <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+
+
+
+
+            <Jumbotron className="jumbo-style">
+                <Container>
+                    <Tilt options={{ max: 25 }}>
+                        <Card>
+                        <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                        <Card.Img variant="top" className="img-resize" src={ lt } alt="K L University" />
+                        </Card.Header>
+                        <Card.Body className="d-flex justify-content-center flex-column">
+                        <div>
+                        <Card.Title className="text-center">Engineering Intern</Card.Title>
+                        </div>
+                        <div>
+                  <Card.Text className="text-center style">
+                    <strong className="body-title-style ">Software Track Intern</strong>
+                    <br />
+                    <strong>Duration:</strong> Mar 2021 - May 2021
+                    <br/>
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                    <li>This Intern & training was an eye-opener to the world of Engineering and Development to Explore & Gain knowledge on Multi File Programming in C & Python, 
+                      SDLC Projects, Industry Level Github Management include Multiple Github Action & Integrations and Developing Multi-OS Projects.
+                    </li>
+
+                    </ul>
+                  </Card.Text>
+                </div>
+                </Card.Body>
+                </Card>
+                </Tilt>
+                </Container>
+            </Jumbotron>
+
+
             <Jumbotron className="jumbo-style">
                 <Container>
                     <Tilt options={{ max: 25 }}>
@@ -27,7 +65,7 @@ const Experience = () => {
                     <br />
                     <strong>Tools:</strong> Automation Anywhere Enterprise & Cloud(Community eariler) Edition
                     <br />
-                    <strong>Duration:</strong> Apr 2020 - Present
+                    <strong>Duration:</strong> Apr 2020 - May 2021
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
@@ -66,7 +104,7 @@ const Experience = () => {
                     <br />
                     <strong>Applications:</strong> Automation Anywhere Enterprise & Cloud(Community eariler) Edition
                     <br />
-                    <strong>Duration:</strong> March 2020 - Present
+                    <strong>Duration:</strong> March 2020 - May 2021
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">

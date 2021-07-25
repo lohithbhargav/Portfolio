@@ -24,9 +24,9 @@ const About = () => {
                     {/* About me description */}
                     <Col xs={12} md={6}>
                         <Row className="my-details p-2 align-items-start rounded">
-                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><ul><li> A Certified RPA Developer of Automation Anywhere &amp; UiPath.</li></ul>
+                          Hello, Myself&nbsp;&nbsp;<strong>D. Lohith Bhargav</strong><ul><li> A Certified RPA Developer in Automation Anywhere &amp; UiPath.</li></ul>
                           <ul><li>RPA Developer &amp; Student Peer Mentor at K L University.</li></ul>
-                          <ul><li>Currently pursuing B-tech 4th year CSE at KLEF Deemed to be University.</li></ul>
+                          <ul><li>CSE 2021 Graduate from KLEF Deemed to be University.</li></ul>
                           <div><strong><br />Global Certifications :</strong>
                             <br />
                             <i>&nbsp;&nbsp;Automation Anywhere Certified Essentials</i><br />
