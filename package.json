@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "homepage": "https://lohithbhargav.github.io/Portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
